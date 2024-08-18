@@ -1,0 +1,63 @@
+
+.BodyHome{
+    margin: 0px;
+    margin-top: -105px;
+    padding: 0px;
+    z-index: -1;
+    position: absolute;
+    font-family: monospace;
+    width: 100%;
+    height: auto;
+    animation-play-state: paused;
+    /* background-color: #373A40; */
+
+}
+.prods-search{
+    width: 65%;
+    height: 35px;
+    border-radius: 15px;
+    padding-left: 10px;
+    border: none;
+    box-shadow: 5px 5px 12px black;
+    z-index: -1;
+}
+.prods-search-submit{
+    height: 35px;
+    border-radius: 15px;
+    margin-left: -55px;
+    z-index: 0;
+    width: 60px;
+    border: 1px solid black;
+    position: relative;
+}
+.prods{
+    box-shadow: 5px 5px 12px rgb(60, 60, 60);
+    background-color: rgba(255, 255, 255, 0.153);
+    backdrop-filter: blur(10px);
+    width: 400px;
+    height: 450px;
+    padding: 20px ;
+    color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.prods h2{
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+.prods h1{
+    font-family: monospace;
+    font-size: 20px;
+}
+.prods h3{
+    font-family: monospace;
+    font-size: 16px;
+}
+.prods:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}

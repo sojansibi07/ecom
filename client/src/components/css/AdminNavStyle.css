@@ -1,0 +1,47 @@
+.gray-bg{
+    background-color: #cccccc;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    z-index: -1;
+}
+.AdminNav{
+    margin: 0px;
+    margin-left: 0;
+    padding: 5px;
+    z-index: 10;
+    font-family: monospace;
+    background-size: 100%;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #a300007b;
+    backdrop-filter: blur(10px);
+    /* box-shadow: 0px 3px 3px rgb(97, 97, 97); */
+}
+.Anav-buttons a:link,.Anav-buttons  a:hover,.Anav-buttons  a:visited{
+    color: white;
+    text-decoration: none;
+}
+.Anav-buttons{
+    transition: 0.4s;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 16px;
+    color: white;
+}
+.Anav-buttons:hover{
+    transition: 0.2s;
+    height: 50px;
+    background-color: #ffffff;
+    color: black;
+    
+}
+.AdminNav a:visited, a:link{
+    text-decoration: none;
+}

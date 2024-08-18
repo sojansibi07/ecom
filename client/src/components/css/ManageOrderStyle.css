@@ -1,0 +1,111 @@
+.ProdBgMain{
+    margin-top: 90px;
+    position: fixed;
+    background-color: #f9f9f9;
+    height: 100%;
+    width: 97%;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    translate: -50% -50%;
+    overflow-y: scroll;
+}
+.prods-main-div{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+.prods-heading h1{
+    font-size: 32px;
+
+}
+.prods-details{
+    display: flex;
+    justify-content: space-between;
+}
+.prods-button-area{
+    width: 30%;
+    height: 55px;
+}
+.prods-button{
+    width: 100%;
+    height: 100%;
+}
+.cart-prods{
+    box-shadow: 5px 5px 12px rgb(60, 60, 60);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 150px;
+    padding: 20px ;
+    color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.cart-prods h2{
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+.cart-prods h1{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.cart-prods:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+.close-cart-popup{
+    background-color: rgb(255, 94, 94);
+    border: none;
+    height: 70%;
+    color: white;
+}
+.close-cart-popup:hover{
+    background-color: #712222;
+}
+.open-cart-popup{
+    background-color: rgb(78, 211, 93);
+    margin-left: 20px;
+    border: none;
+    height: 70%;
+    color: white;
+}
+.open-cart-popup:hover{
+    background-color: #185921;
+}
+.cart-prods a:link,.cart-prods a:visited{
+    color: black;
+}
+.prods-search{
+    width: 65%;
+    height: 35px;
+    border-radius: 15px;
+    padding-left: 10px;
+    border: none;
+    box-shadow: 5px 5px 12px black;
+    z-index: -1;
+}
+.search-div{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.prods-search-submit{
+    height: 35px;
+    border-radius: 15px;
+    margin-left: -55px;
+    z-index: 0;
+    width: 60px;
+    border: 1px solid black;
+    position: relative;
+}

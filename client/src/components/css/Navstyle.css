@@ -1,0 +1,42 @@
+body{
+    background-image: url("../Res/bg0.jpg");
+}
+.BodyNav{
+    margin: 0px;
+    margin-left: 0.5%;
+    padding: 5px;
+    z-index: 10;
+    font-family: monospace;
+    background-size: 100%;
+    overflow: hidden;
+    width: 98%;
+    position: fixed;
+    top: 10px;
+    background-color: #0034a37b;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    /* box-shadow: 0px 3px 3px rgb(97, 97, 97); */
+}
+.nav-buttons a:link,.nav-buttons  a:hover,.nav-buttons  a:visited{
+    color: white;
+    text-decoration: none;
+}
+.nav-buttons{
+    transition: 0.4s;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 20px;
+    color: white;
+}
+.nav-buttons:hover{
+    transition: 0.2s;
+    height: 50px;
+    background-color: #ffffff;
+    color: black;
+    
+}
+.BodyNav a:visited, a:link{
+    text-decoration: none;
+}
